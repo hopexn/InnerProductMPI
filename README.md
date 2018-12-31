@@ -1,10 +1,10 @@
 # InnerProduct by MPI
-####1. 使用方法
+#### 1. 使用方法
 
 - 编译： mpicc InnerProduct InnerProduct.c
 - 运行： mpirun -np <节点数> InnerProduct <向量长度> <向量个数>
 
-####2. 说明
+#### 2. 说明
 程序运行后，会根据用户输入生成一个N x M的矩阵(M为向量长度 N为向量个数), 然后随机生成一个矩阵
 对这个矩阵进行串行和并行的内积运算，校验结果，若结果相同则输出Correct，错误显示Incorrect.
 
